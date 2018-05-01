@@ -1,0 +1,47 @@
+.left {
+  float: left;
+  text-align: left;
+}
+
+.center {
+  float: none;
+  text-align: center;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.A1 {
+
+}
+
+.A2 {
+  
+}
+
+p {
+  padding: 7px;
+  margin: 11px;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 43px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3 {
+  font-size 31px;
+  font-style: italic;
+}
