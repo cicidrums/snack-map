@@ -18,7 +18,7 @@
 }
 
 .A2 {
-  
+
 }
 
 p {
@@ -28,20 +28,25 @@ p {
 
 body {
   text-align: center;
+  font-family: sans-serif;
+  background-color: #CCEC00;
 }
 
 h1 {
   font-size: 55px;
   font-weight: bold;
+  color: indigo;
 }
 
 h2 {
-  font-size: 43px;
+  font-size: 39px;
   font-weight: bold;
   font-style: italic;
+  color: purple;
 }
 
 h3 {
   font-size 31px;
   font-style: italic;
+  color: salmon;
 }
