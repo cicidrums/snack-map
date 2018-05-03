@@ -1,24 +1,83 @@
 .left {
   float: left;
-  text-align: left;
+  text-align: center;
+  width: 33%;
+}
+
+.left:hover {
+  color: red;
 }
 
 .center {
-  float: none;
+  float: left;
   text-align: center;
+  width: 33%;
+}
+
+.center:hover {
+  color: yellow;
+}
+
+.center h3 {
+  font-style: normal;
 }
 
 .right {
-  float: right;
-  text-align: right;
+  float: left;
+  text-align: center;
+  width: 33%;
 }
 
-.A1 {
-
+.right:hover{
+  color: blue;
 }
 
-.A2 {
+.right h3 {
+  text-decoration: underline;
+}
 
+#A1 {
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: orange;
+}
+
+#A2 {
+  margin: 12px;
+  border: 2px solid #00FFEA;
+  padding: 4px;
+  background-color: lightblue;
+}
+
+#A3 {
+  margin: 12px;
+  border: 2px solid purple;
+  padding: 4px;
+  background-color: pink;
+}
+
+#B1 {
+  margin: 12px;
+  border: 2px dashed yellow;
+  padding: 4px;
+  background-color: green;
+  color: #fff;
+}
+
+#B2 {
+  margin: 12px;
+  border: 2px dotted red;
+  padding: 4px;
+  background-color: purple;
+  color: yellow;
+}
+
+#B3 {
+  margin: 12px;
+  border: 4px solid blue;
+  padding: 4px;
+  background-color: magenta;
 }
 
 p {
@@ -49,4 +108,8 @@ h3 {
   font-size 31px;
   font-style: italic;
   color: salmon;
+}
+
+img {
+  width: 75%;
 }
