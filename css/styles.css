@@ -1,3 +1,4 @@
+
 .left {
   float: left;
   text-align: center;
@@ -80,11 +81,6 @@
   background-color: magenta;
 }
 
-p {
-  padding: 7px;
-  margin: 11px;
-}
-
 body {
   text-align: center;
   font-family: sans-serif;
@@ -112,4 +108,29 @@ h3 {
 
 img {
   width: 75%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: grey;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .right {
+    float: none;
+    width: 100%;
+  }
+  .center {
+    float: none;
+    width: 100%;
+  }
+  .left {
+    float: none;
+    width: 100%;
+  }
+  body {
+    background-color: teal;
+  }
 }
